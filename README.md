@@ -1,4 +1,3 @@
-````markdown
 # 🛍️ Flipkart Product Analysis Dashboard
 
 **📂 Project Type:** End-to-End Data Analytics Project
@@ -11,9 +10,9 @@ This project showcases a complete **End-to-End Data Analytics Workflow** using a
 
 The project covers:
 
-- 📊 Data Cleaning using Excel
-- 🗄️ Data Analysis using PostgreSQL (pgAdmin 4)
-- 📈 Interactive Dashboard Development using Power BI
+* 📊 Data Cleaning using Excel
+* 🗄️ Data Analysis using PostgreSQL (pgAdmin 4)
+* 📈 Interactive Dashboard Development using Power BI
 
 The primary objective is to analyze product performance, sales trends, discounts, seller performance, inventory levels, and return policies to support data-driven business decisions.
 
@@ -22,7 +21,7 @@ The primary objective is to analyze product performance, sales trends, discounts
 # 🛠️ Tech Stack
 
 | Tool | Purpose |
-|------|---------|
+| --- | --- |
 | **Microsoft Excel** | Data Cleaning & Transformation |
 | **PostgreSQL (pgAdmin 4)** | Data Storage, SQL Queries & Views |
 | **Power BI** | Data Visualization & Dashboard |
@@ -37,11 +36,11 @@ The raw dataset was downloaded from **Kaggle** and cleaned in Microsoft Excel.
 
 ### Cleaning Tasks Performed
 
-- Removed duplicate records
-- Fixed inconsistent formatting
-- Standardized column names
-- Handled missing values where necessary
-- Saved the cleaned dataset as a CSV file for SQL import
+* Removed duplicate records
+* Fixed inconsistent formatting
+* Standardized column names
+* Handled missing values where necessary
+* Saved the cleaned dataset as a CSV file for SQL import
 
 ---
 
@@ -51,14 +50,12 @@ The cleaned CSV file was imported into **PostgreSQL** using **pgAdmin 4**.
 
 ### Database Table
 
-```
-flipkart_products
-```
+`flipkart_products`
 
 ### SQL Views Created
 
 | View Name | Description |
-|-----------|-------------|
+| --- | --- |
 | Top_Selling_Products | Identifies the highest-selling products |
 | Category_Total_Sales | Calculates total sales by category |
 | Top_Rated_Products | Lists products with the highest ratings |
@@ -67,8 +64,6 @@ flipkart_products
 | Low_Stock_Products | Finds products with low inventory |
 | Popular_Subcategory | Identifies the most popular subcategories |
 | Seller_With_Most_Products | Shows sellers with the highest product count |
-
-📁 **Folder:** `SQL`
 
 ---
 
@@ -82,9 +77,9 @@ The SQL views were imported into **Power BI (Import Mode)** to build an interact
 
 ## 🏠 Page 1 – Home
 
-- Project Overview
-- Tools & Technologies Used
-- Dashboard Navigation
+* Project Overview
+* Tools & Technologies Used
+* Dashboard Navigation
 
 ---
 
@@ -92,20 +87,20 @@ The SQL views were imported into **Power BI (Import Mode)** to build an interact
 
 ### KPI Cards
 
-- Total Products
-- Total Units Sold
-- Average Price
+* Total Products
+* Total Units Sold
+* Average Price
 
 ### Filters
 
-- Main Category
-- Subcategory
+* Main Category
+* Subcategory
 
 ### Visualizations
 
-- 📌 Top Selling Products (Bar Chart)
-- 🍩 Category-wise Total Sales (Donut Chart)
-- 📊 Subcategory Popularity (Column Chart)
+* 📌 Top Selling Products (Bar Chart)
+* 🍩 Category-wise Total Sales (Donut Chart)
+* 📊 Subcategory Popularity (Column Chart)
 
 ---
 
@@ -113,17 +108,17 @@ The SQL views were imported into **Power BI (Import Mode)** to build an interact
 
 ### KPI Cards
 
-- Average Discount (%)
-- Average Product Rating
+* Average Discount (%)
+* Average Product Rating
 
 ### Filter
 
-- Main Category
+* Main Category
 
 ### Visualizations
 
-- ⭐ Top Rated Products (Table)
-- 📉 Average Discount by Category (Column Chart)
+* ⭐ Top Rated Products (Table)
+* 📉 Average Discount by Category (Column Chart)
 
 ---
 
@@ -131,18 +126,18 @@ The SQL views were imported into **Power BI (Import Mode)** to build an interact
 
 ### KPI Card
 
-- Total Sellers
+* Total Sellers
 
 ### Filters
 
-- Seller
-- Return Policy
+* Seller
+* Return Policy
 
 ### Visualizations
 
-- 📉 Low Stock Products (Bar Chart)
-- 🥧 Return Policy Distribution (Pie Chart)
-- 📊 Sellers with Most Products (Column Chart)
+* 📉 Low Stock Products (Bar Chart)
+* 🥧 Return Policy Distribution (Pie Chart)
+* 📊 Sellers with Most Products (Column Chart)
 
 ---
 
@@ -150,14 +145,14 @@ The SQL views were imported into **Power BI (Import Mode)** to build an interact
 
 The dashboard helps answer important business questions such as:
 
-- Which products generate the highest sales?
-- Which product categories contribute the most revenue?
-- Which products receive the highest customer ratings?
-- Which categories offer the largest discounts?
-- Which sellers list the most products?
-- Which products are running low on stock?
-- How are return policies distributed across products?
-- Which subcategories are the most popular?
+* Which products generate the highest sales?
+* Which product categories contribute the most revenue?
+* Which products receive the highest customer ratings?
+* Which categories offer the largest discounts?
+* Which sellers list the most products?
+* Which products are running low on stock?
+* How are return policies distributed across products?
+* Which subcategories are the most popular?
 
 ---
 
@@ -171,15 +166,11 @@ The dashboard helps answer important business questions such as:
 
 Through this project, I gained hands-on experience in:
 
-- Cleaning and preparing raw datasets for analysis
-- Importing and managing data in PostgreSQL
-- Writing analytical SQL queries and creating reusable SQL views
-- Designing interactive dashboards in Power BI
-- Creating KPIs and business-focused visualizations
-- Building a complete end-to-end data analytics project
+* Cleaning and preparing raw datasets for analysis
+* Importing and managing data in PostgreSQL
+* Writing analytical SQL queries and creating reusable SQL views
+* Designing interactive dashboards in Power BI
+* Creating KPIs and business-focused visualizations
+* Building a complete end-to-end data analytics project
 
 ---
-
-
-## ⭐ If you found this project helpful, consider giving it a star!
-````
