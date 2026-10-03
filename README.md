@@ -56,20 +56,20 @@ The cleaned CSV file was imported into **PostgreSQL** using **pgAdmin 4**.
 
 | View Name | Description |
 | --- | --- |
-| Top_Selling_Products | Identifies the highest-selling products |
-| Category_Total_Sales | Calculates total sales by category |
-| Top_Rated_Products | Lists products with the highest ratings |
-| Category_Avg_Discount | Computes average discount by category |
-| Return_Policy_Distribution | Analyzes return policy distribution |
-| Low_Stock_Products | Finds products with low inventory |
-| Popular_Subcategory | Identifies the most popular subcategories |
-| Seller_With_Most_Products | Shows sellers with the highest product count |
+| top_selling_products | Identifies the highest-selling products |
+| category_total_sales | Calculates total units sold by category |
+| top_rated_products | Lists products with the highest ratings |
+| category_avg_discount | Computes average discount by category |
+| return_policy_distribution | Analyzes return policy distribution |
+| low_stock_products | Finds products with low inventory |
+| popular_subcategories | Identifies the most popular subcategories |
+| sellers_with_most_products | Shows sellers with the highest product count |
 
 ---
 
 ## Step 3: Power BI Dashboard
 
-The SQL views were imported into **Power BI (Import Mode)** to build an interactive dashboard consisting of four report pages.
+The base `flipkart_products` table and all 8 SQL views were imported into **Power BI (Import Mode)**. Four report pages were built on top of it.
 
 ---
 
@@ -77,19 +77,18 @@ The SQL views were imported into **Power BI (Import Mode)** to build an interact
 
 ## 🏠 Page 1 – Home
 
-* Project Overview
-* Tools & Technologies Used
-* Dashboard Navigation
+* Dashboard Title
+* Project Description
 
 ---
 
-## 📊 Page 2 – Sales Overview
+## 📊 Page 2 – Sales Insights
 
 ### KPI Cards
 
-* Total Products
-* Total Units Sold
-* Average Price
+* Products
+* Units Sold
+* Price
 
 ### Filters
 
@@ -98,9 +97,9 @@ The SQL views were imported into **Power BI (Import Mode)** to build an interact
 
 ### Visualizations
 
-* 📌 Top Selling Products (Bar Chart)
+* 🍩 Top Selling Products (Donut Chart)
 * 🍩 Category-wise Total Sales (Donut Chart)
-* 📊 Subcategory Popularity (Column Chart)
+* 🗺️ Subcategory Popularity (Treemap)
 
 ---
 
@@ -108,25 +107,27 @@ The SQL views were imported into **Power BI (Import Mode)** to build an interact
 
 ### KPI Cards
 
-* Average Discount (%)
-* Average Product Rating
+* Discount
+* Product Rating
 
-### Filter
+### Filters
 
 * Main Category
+* Seller
 
 ### Visualizations
 
-* ⭐ Top Rated Products (Table)
-* 📉 Average Discount by Category (Column Chart)
+* ⭐ Top Rated Products (Matrix)
+* 📊 Average Discount by Category (Column Chart)
+* 📈 Seller Rating vs Units Sold (Line and Stacked Column Combo Chart)
 
 ---
 
-## 📦 Page 4 – Sellers & Return Policy
+## 📦 Page 4 – Inventory & Sellers
 
 ### KPI Card
 
-* Total Sellers
+* Sellers
 
 ### Filters
 
@@ -146,7 +147,7 @@ The SQL views were imported into **Power BI (Import Mode)** to build an interact
 The dashboard helps answer important business questions such as:
 
 * Which products generate the highest sales?
-* Which product categories contribute the most revenue?
+* Which product categories sell the most units?
 * Which products receive the highest customer ratings?
 * Which categories offer the largest discounts?
 * Which sellers list the most products?
@@ -158,7 +159,12 @@ The dashboard helps answer important business questions such as:
 
 # 📸 Dashboard Preview
 
-> Dashboard screenshots are available in the **Screenshots** folder.
+> Dashboard screenshots are available in the **Screenshots** folder:
+>
+> * `1_home.png`
+> * `2_Sales Insight.png`
+> * `3_Discount and Rating Overview.png`
+> * `4_Sellers and Return rate Insights.png`
 
 ---
 
